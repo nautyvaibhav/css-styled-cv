@@ -1,0 +1,48 @@
+body{
+  background-color: #f6f6f6;
+text-align: center;
+
+/* will center everything inside the container (here body ) that doesnt have a width set */
+}
+h1{
+height: 20px;
+  margin: auto 0 auto 0;
+
+}
+.top-container{
+  margin-top: 50px;
+
+
+}
+.middle-container{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+
+  margin: 0 auto;/* l-t-r-b bcoz  if i dont do this then it wont center the red color */
+
+}
+.bottom-container{
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+  margin: auto 0 auto 0;
+
+}
+.top-cloud{
+  position: relative;
+  left: 200px;
+}
+.bottom-cloud{
+  position: relative;
+  bottom:250px;
+  left: 100px;
+}
+#pro{
+  text-decoration: underline;
+  color: blueviolet
+}
+#code{
+  color: blueviolet;
+  font-size:50px;
+}
